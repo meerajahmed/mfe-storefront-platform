@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
+import { withMicrofrontends } from "@vercel/microfrontends/next/config";
+
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  basePath: "/docs",
 };
 
-export default nextConfig;
+export default withMicrofrontends(nextConfig);
+
