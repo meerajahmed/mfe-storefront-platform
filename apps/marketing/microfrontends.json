@@ -3,8 +3,7 @@
   "applications": {
     "@mfe-storefront/marketing": {
       "development": {
-        "fallback": "http://localhost:3000",
-        "local": 3000
+        "fallback": "mfe-storefront-marketing.vercel.app"
       }
     },
     "@mfe-storefront/docs": {
@@ -12,23 +11,7 @@
         {
           "paths": ["/docs", "/docs/:path*"]
         }
-      ],
-      "development": {
-        "local": 3001
-      }
-    },
-    "@mfe-storefront/dashboard": {
-      "routing": [
-        {
-          "paths": ["/app", "/app/:path*", "/settings", "/settings/:path*"]
-        }
-      ],
-      "development": {
-        "local": 3002
-      }
+      ]
     }
-  },
-  "options": {
-    "localProxyPort": 3024
   }
 }
