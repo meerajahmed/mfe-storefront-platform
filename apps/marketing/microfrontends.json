@@ -1,15 +1,13 @@
 {
   "$schema": "https://openapi.vercel.sh/microfrontends.json",
   "applications": {
-    "marketing": {
-      "packageName": "@mfe-storefront/marketing",
+    "@mfe-storefront/marketing": {
       "development": {
         "fallback": "http://localhost:3000",
         "local": 3000
       }
     },
-    "docs": {
-      "packageName": "@mfe-storefront/docs",
+    "@mfe-storefront/docs": {
       "routing": [
         {
           "paths": ["/docs", "/docs/:path*"]
@@ -19,8 +17,7 @@
         "local": 3001
       }
     },
-    "dashboard": {
-      "packageName": "@mfe-storefront/dashboard",
+    "@mfe-storefront/dashboard": {
       "routing": [
         {
           "paths": ["/app", "/app/:path*", "/settings", "/settings/:path*"]
@@ -30,5 +27,8 @@
         "local": 3002
       }
     }
+  },
+  "options": {
+    "localProxyPort": 3024
   }
 }
