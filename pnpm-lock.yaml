@@ -47,7 +47,7 @@ importers:
         version: 9.39.4(jiti@2.6.1)
       eslint-config-next:
         specifier: 16.2.4
-        version: 16.2.4(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)
+        version: 16.2.4(@typescript-eslint/parser@8.59.1(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)
       tailwindcss:
         specifier: ^4
         version: 4.2.4
@@ -90,7 +90,7 @@ importers:
         version: 9.39.4(jiti@2.6.1)
       eslint-config-next:
         specifier: 16.2.4
-        version: 16.2.4(@typescript-eslint/parser@8.59.1(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)
+        version: 16.2.4(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)
       tailwindcss:
         specifier: ^4
         version: 4.2.4
@@ -150,6 +150,16 @@ importers:
       '@types/react':
         specifier: ^19.0.0
         version: 19.2.14
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+
+  packages/utils:
+    dependencies:
+      next:
+        specifier: ^16.0.0
+        version: 16.2.4(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+    devDependencies:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
@@ -2821,7 +2831,7 @@ snapshots:
       commander: 12.1.0
       cookie: 1.0.2
       fast-glob: 3.3.3
-      http-proxy: 1.18.1
+      http-proxy: 1.18.1(patch_hash=3032f3a47f33911d5c278ec6f2d4e0e4afc8f977baea1012613b13de23831c73)
       jsonc-parser: 3.3.1
       md5: 2.3.0
       nanoid: 3.3.11
@@ -3596,7 +3606,7 @@ snapshots:
     dependencies:
       hermes-estree: 0.25.1
 
-  http-proxy@1.18.1:
+  http-proxy@1.18.1(patch_hash=3032f3a47f33911d5c278ec6f2d4e0e4afc8f977baea1012613b13de23831c73):
     dependencies:
       eventemitter3: 4.0.7
       follow-redirects: 1.16.0
