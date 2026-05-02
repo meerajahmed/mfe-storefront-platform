@@ -14,14 +14,6 @@
           "paths": ["/docs", "/docs/:path*"]
         }
       ]
-    },
-    "mfe-storefront-dashboard": {
-      "packageName": "@mfe-storefront/dashboard",
-      "routing": [
-        {
-           "paths": ["/app", "/app/:path*", "/settings", "/settings/:path*"]
-        }
-      ]
     }
   }
 }

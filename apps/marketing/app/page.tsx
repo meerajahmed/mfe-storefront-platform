@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[80vh] p-8">
-      <h1 className="text-4xl font-bold mb-4">Welcome to Acme Platform</h1>
+      <h1 className="text-4xl font-bold mb-4">Welcome to Storefront Platform</h1>
       <p className="text-gray-600 mb-8 text-center max-w-md">
         The everything app for your business.
       </p>

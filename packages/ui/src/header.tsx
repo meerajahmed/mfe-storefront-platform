@@ -8,7 +8,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto h-16 px-6 flex items-center justify-between">
         <div className="flex items-center gap-10">
           <a href="/" className="font-bold text-2xl tracking-tight text-gray-900">
-            Acme
+            Storefront
           </a>
           <nav className="hidden md:flex items-center gap-8">
             <a href="/" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
