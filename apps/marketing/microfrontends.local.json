@@ -19,7 +19,8 @@
         "local": 3001
       }
     },
-    "@mfe-storefront/dashboard": {
+    "mfe-storefront-dashboard": {
+      "packageName": "@mfe-storefront/dashboard",
       "routing": [
         {
           "paths": ["/app", "/app/:path*", "/settings", "/settings/:path*"]
