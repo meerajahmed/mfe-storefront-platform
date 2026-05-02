@@ -1,5 +1,9 @@
+import { SpeculationRules } from "./speculation-rules";
+
 export function Header() {
   return (
+    <>
+    <SpeculationRules />
     <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-md">
       <div className="max-w-7xl mx-auto h-16 px-6 flex items-center justify-between">
         <div className="flex items-center gap-10">
@@ -28,5 +32,6 @@ export function Header() {
         </div>
       </div>
     </header>
+    </>
   );
 }

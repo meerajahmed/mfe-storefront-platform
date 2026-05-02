@@ -1,12 +1,14 @@
 {
   "$schema": "https://openapi.vercel.sh/microfrontends.json",
   "applications": {
-    "@mfe-storefront/marketing": {
+    "mfe-storefront-marketing": {
+      "packageName": "@mfe-storefront/marketing",
       "development": {
         "fallback": "mfe-storefront-marketing.vercel.app"
       }
     },
-    "@mfe-storefront/docs": {
+    "mfe-storefront-docs": {
+      "packageName": "@mfe-storefront/docs",
       "routing": [
         {
           "paths": ["/docs", "/docs/:path*"]
